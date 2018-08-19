@@ -1,0 +1,8 @@
+RECENT_OBS_IN_REGION = 'https://{{serverName}}/ws2.0/data/obs/{{regionCode}}/recent'
+RECENT_NOTABLE_OBS_IN_REGION = 'https://{{serverName}}/ws2.0/data/obs/{{regionCode}}/recent/notable'
+RECENT_OBS_OF_SPECIES_IN_REGION = 'https://{{serverName}}/ws2.0/data/obs/{{regionCode}}/recent/{{speciesCode}}'
+RECENT_NEARBY_OBS = 'https://{{serverName}}/ws2.0/data/obs/geo/recent?lat={{lat}}&lng={{lng}}'
+RECENT_NEARBY_OBS_OF_SPECIES = 'https://{{serverName}}/ws2.0/data/obs/geo/recent/{{speciesCode}}?lat={{lat}}&lng={{lng}}'
+NEAREST_OBS_OF_SPECIES = 'https://{{serverName}}/ws2.0/data/nearest/geo/recent/{{speciesCode}}?lat={{lat}}&lng={{lng}}'
+RECENT_NEARBY_NOTABLE_OBS = 'https://{{serverName}}/ws2.0/data/obs/geo/recent/notable?lat={{lat}}&lng={{lng}}'
+HISTORIC_OBS_ON_DATE = 'https://{{serverName}}/ws2.0/data/obs/{{regionCode}}/historic/{{y}}/{{m}}/{{d}}?rank=mrec&detail=full&cat=species'
